@@ -254,3 +254,23 @@ main p{
    background-color: #219150;
   
 }
+
+footer{
+   justify-content: center;
+   text-align: center;
+   background: hsl(199, 94%, 21%);
+}
+.footer-links img{
+   width: 19px;
+}
+.footer-content{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 20px 120px;
+}
+
+footer p{
+  
+   padding: 20px;
+}

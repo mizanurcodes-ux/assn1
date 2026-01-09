@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-between;
+   background: white;
+   height: 92px;
+   padding:16px 120px ;
+   padding: 15px 120px;
+}
+
+header li{
+    list-style: none;
+    display: inline;
+    margin-right: 40px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1F2937;
+}
+header img{
+    width: 139px;
+    height: 60px;  
+}
+header button{
+    color: white;
+    background: #27ae60;
+    margin: 10px;
+    padding: 10px 5px;
+    border-radius: 5px;
+    border: none;
+}
+
+header button :hover{
+    background-color: #219150;
+}
